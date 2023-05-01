@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -d './out' ]; then
+  g++ *.cpp -o ./out/test
+  echo 'Compiled!'
+else
+  echo 'Folder out doesn`t exist!'
+  exit 1
+fi
