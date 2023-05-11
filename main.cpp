@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-  int result = Sum(5, 32);
+  int result = Sum(5, 30);
 
   cout << result << endl;
 
