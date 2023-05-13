@@ -11,3 +11,4 @@ I'm just learning C++ and playing with it.
 - Playing a little with classes
 - Compiling by bash script
 - Compiling many files
+- Playing a little with asm
