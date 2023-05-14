@@ -3,6 +3,7 @@
 
 _start:
 
+  push OFFSET hello
   call print
 
   // exit
@@ -16,11 +17,10 @@ loop:
   ret
 
 print:
-  push [hello]
   mov rax, 1
   mov rdi, 1
-  pop [rsi]
-  mov rdx, 2
+  mov rsi, [rsp+8]
+  mov rdx, 14
   syscall
   ret
 
